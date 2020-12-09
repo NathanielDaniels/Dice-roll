@@ -1,0 +1,170 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #aeb8fe;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.number {
+  display: none;
+}
+
+.dice {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  background-color: #efe5dc;
+  margin: 100px;
+  border: 1px solid #666;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.dice:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.dice:hover .number {
+  display: block;
+  position: absolute;
+  font-size: 2em;
+  left: 3em;
+  top: 0;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: black;
+  margin-top: 10px;
+  background: red;
+  border: 1px solid darkred;
+}
+
+.active {
+  display: block;
+}
+
+.de-active {
+  display: none;
+}
+
+.dots-1 {
+  /* display: none; */
+  margin: 35px;
+}
+
+.dots-2 {
+  /* display: none; */
+  margin: 20px 35px;
+}
+
+.dots-2 .dot:nth-child(1) {
+  margin: -10px -25px 0;
+}
+
+.dots-2 .dot:nth-child(2) {
+  margin: 30px 25px;
+}
+
+.dots-3 {
+  /* display: none; */
+}
+
+.dots-3 .dot:nth-child(1) {
+  margin: 10px 10px 0;
+}
+
+.dots-3 .dot:nth-child(2) {
+  margin: 5px 35px 0;
+}
+
+.dots-3 .dot:nth-child(3) {
+  margin: 5px 60px 0;
+}
+
+.dots-4 {
+  /* display: none; */
+}
+
+.dots-4 .dot:nth-child(1) {
+  margin: 10px 10px 0;
+}
+
+.dots-4 .dot:nth-child(2) {
+  margin: -20px 60px 0;
+}
+
+.dots-4 .dot:nth-child(3) {
+  margin: 30px 10px 0;
+}
+
+.dots-4 .dot:nth-child(4) {
+  margin: -20px 60px 0;
+}
+
+.dots-5 {
+  /* display: none; */
+}
+
+.dots-5 .dot:nth-child(1) {
+  margin: 10px 10px 0;
+}
+
+.dots-5 .dot:nth-child(2) {
+  margin: -20px 60px 0;
+}
+
+.dots-5 .dot:nth-child(3) {
+  margin: 30px 10px 0;
+}
+
+.dots-5 .dot:nth-child(4) {
+  margin: -20px 60px 0;
+}
+
+.dots-5 .dot:nth-child(5) {
+  margin: -45px 35px;
+}
+
+.dots-6 {
+  /* display: none; */
+}
+
+.dots-6 .dot:nth-child(1) {
+  margin: 10px 10px 0;
+}
+
+.dots-6 .dot:nth-child(2) {
+  margin: -20px 60px 0;
+}
+
+.dots-6 .dot:nth-child(3) {
+  margin: 30px 10px 0;
+}
+
+.dots-6 .dot:nth-child(4) {
+  margin: -20px 60px 0;
+}
+
+.dots-6 .dot:nth-child(5) {
+  margin: -45px 10px;
+}
+
+.dots-6 .dot:nth-child(6) {
+  margin: 25px 60px;
+}
+/*# sourceMappingURL=main.css.map */
