@@ -53,20 +53,11 @@ body {
   display: none;
 }
 
-// .number {
-//   position: absolute;
-//   font-size: 2em;
-//   left: 3em;
-
-// }
-
 .dots-1 {
-  /* display: none; */
   margin: 35px;
 }
 
 .dots-2 {
-  /* display: none; */
   margin: 20px 35px;
   .dot{
     &:nth-child(1) {
@@ -79,7 +70,6 @@ body {
 }
 
 .dots-3 {
-  /* display: none; */
   .dot {
     &:nth-child(1) {
       margin: 10px 10px 0;
@@ -94,7 +84,6 @@ body {
 }
 
 .dots-4 {
-  /* display: none; */
   .dot {
     &:nth-child(1) {
       margin: 10px 10px 0;
@@ -113,7 +102,6 @@ body {
 }
 
 .dots-5 {
-  /* display: none; */
   .dot {
     &:nth-child(1) {
       margin: 10px 10px 0;
@@ -134,7 +122,6 @@ body {
 }
 
 .dots-6 {
-  /* display: none; */
   .dot {
     &:nth-child(1) {
       margin: 10px 10px 0;
