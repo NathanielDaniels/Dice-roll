@@ -27,15 +27,3 @@ let diceRoll = () => {
 }
 diceRoll()
 
-/*
-
-DETAILED INSTRUCTIONS
-1. pick out the neccesary elements from the HTML
-2. Create other 5 dice faces in CSS
-3. use eventlisteners on the appropriate div
-4. Display dice faces randomly on click
-
-STRETCH GOALS:
-- Can you show the number you rolled as a integer along-side the dice face?
-- Can you improve the overall design?
-*/
